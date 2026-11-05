@@ -19,6 +19,7 @@ MODEL_PATH = Path("model/heart_model.joblib")
 
 def main() -> None:
     df = pd.read_csv(DATA_PATH, encoding="utf-8-sig")
+    df = df.drop_duplicates()
     X, y = df[FEATURES], df[TARGET]
 
     X_train, X_test, y_train, y_test = train_test_split(
