@@ -2,7 +2,7 @@
 
 FastAPI service that serves predictions from a Random Forest classifier trained on the Heart Disease dataset. Dockerized and deployed on Render.
 
-**Live URL:** https://YOUR-SERVICE.onrender.com (Swagger: `/docs`)
+**Live URL:** https://heart-api-n640.onrender.com (Swagger: `/docs`)
 
 ## Project structure
 
