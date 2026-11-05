@@ -26,6 +26,7 @@ FastAPI service that serves predictions from a Random Forest classifier trained 
 - Dataset: [Heart Disease Dataset (Kaggle)](https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset). 13 features, binary `target` (1 = disease, 0 = no disease).
 - Model: `RandomForestClassifier` (200 trees), 80/20 stratified split.
 - Saved with joblib to `model/heart_model.joblib` along with the feature list and test accuracy.
+- Duplicate rows are dropped before training to avoid train/test leakage.
 
 Retrain:
 
