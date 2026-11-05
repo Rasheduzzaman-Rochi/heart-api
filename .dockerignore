@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.git/
+data/
+train.py
+README.md
